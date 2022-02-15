@@ -1,0 +1,43 @@
+{
+  "name": "aetb",
+  "version": "1.0.0",
+  "description": "aequet trade bot sends trades for you.",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.1",
+    "cheerio": "^1.0.0-rc.10",
+    "cheerio-advanced-selectors": "^2.0.1",
+    "cheerio-get-css-selector": "^2.0.0",
+    "colors": "^1.4.0",
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security",
+    "get-unique-selector": "^1.0.1",
+    "got": "^11.8.3",
+    "http-proxy": "^1.18.1",
+    "http-proxy-agent": "^5.0.0",
+    "https-proxy-agent": "^5.0.0",
+    "jwt-decode": "^3.1.2",
+    "nexe": "^4.0.0-beta.19",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "pretty": "^2.0.0",
+    "puppeteer": "^13.1.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "systeminformation": "^5.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && node index.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "javascript-obfuscator": "^3.1.0",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-obfuscator": "^3.5.0"
+  }
+}
